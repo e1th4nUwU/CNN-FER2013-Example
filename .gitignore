@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Data (large dataset — download from Kaggle)
+data/
+
+# Trained model weights
+*.keras
+*.h5
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+doc/*.aux
+doc/*.log
+doc/*.out
+doc/*.toc
+doc/*.synctex.gz
+doc/*.fls
+doc/*.fdb_latexmk
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
